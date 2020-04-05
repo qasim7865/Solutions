@@ -17,5 +17,8 @@ public class BadshahsMotto {
     public static void main(String[] args) {
         BadshahsMotto first = new BadshahsMotto();
         first.displayMotto();
+        
+        
+        
     }
 }
