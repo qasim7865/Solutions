@@ -31,6 +31,12 @@ public class Rental {
         setHoursAndMinutes(minutes);
     }
 
+    public Rental(String contractNumber, int hoursForRental, String contactPhoneNumber) {
+        setContractNumber(contractNumber);
+        setHoursAndMinutes(hoursForRental);
+        setPhoneNumber(contactPhoneNumber);
+    }
+
     public Rental() {
         this("A000",0);        
     } 
