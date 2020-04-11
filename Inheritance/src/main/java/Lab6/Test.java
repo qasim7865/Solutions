@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.inheritance;
-
-import java.util.Calendar;
-import java.util.Date;
+package Lab6;
 
 /**
  *
@@ -14,10 +11,8 @@ import java.util.Date;
  */
 public class Test {
     public static void main(String[] args) {
-        int year = 120;
-        int month = 03;
-        int day = 20;
-        Date myDate = new Date(year,month,day);
-        System.out.println(myDate);
+        String a = "A001";
+        String b = "A003";
+        System.out.println(b.compareTo(a));
     }
 }
