@@ -11,8 +11,19 @@ package Lab6;
  */
 public class Test {
     public static void main(String[] args) {
-        String a = "A001";
-        String b = "A003";
-        System.out.println(b.compareTo(a));
+        Student a = new Student();
+        Person b = new Student();
+        Object c = new Student();
+        
+        System.out.println(c instanceof Student);
+        
+        Student j = (Student) c;
+        
+        int d = 10;
+        float e = 10;
+        double f = 10;
+        
+        
+        int h = (int) f;
     }
 }

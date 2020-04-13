@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author princ
  */
-public class RentalDemo {
+public class LessonWithRentalDemo {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
        LessonWithRental[] lwrObj = {new LessonWithRental("A001", 70, 2), new LessonWithRental("A004", 100, 0), new LessonWithRental("A003", 80, 1), new LessonWithRental("A002", 90, 4)};
